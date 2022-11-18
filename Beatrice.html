@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Beako!!</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            let buttons = document.querySelectorAll('button');
+            for (let i = 0; i < buttons.length; i++) {
+                buttons[i].addEventListener('click', function() {
+                    // buttons[i].style.backgroundColor = 'red';
+                    let page = buttons[i].innerHTML;
+                    page = './' + page + '.html';
+                    if (page === './Emilia.html') {
+                        page = 'index.html';
+                    }
+                    // buttons[i].innerHTML = page;
+                    location.href = page;
+                });
+            }
+        });
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col beako" id="descreption">
+                <h1>Beatrice</h1>
+                <p><a href="https://rezero.fandom.com/wiki/Beatrice" target="_blank"><b>Beatrice</b></a> is a member of the Emilia Camp and the former caretaker of the Forbidden Library at Roswaal's Mansion. She is one of the main supporting characters in <abbr title="Re:Zero kara Hajimeru Isekai Seikatsu series"><i>Re:Zero</i></abbr>.</p>
+                <button type="button" class="btn btn-outline-primary btn-sm">Emilia</button> <button type="button" class="btn btn-outline-info btn-sm">Subaru</button> <button type="button" class="btn btn-outline-secondary btn-sm">Puck</button>
+            </div>
+            <div class="col" id="beako1">
+                <img src="./Images/beatrice.jpg" alt="Picture of Beatrice" width="500">
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+</body>
+
+</html>

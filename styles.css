@@ -1,0 +1,93 @@
+/* Styling for Navbar */
+body {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    line-height: 1.1;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 5%;
+}
+
+button {
+    max-width: 50%;
+    border-radius: 50px !important;
+}
+
+.col {
+    justify-content: center;
+}
+
+.img-col {
+    margin-top: 100px;
+}
+
+img {
+
+    max-width: 100%;
+    max-height: auto;
+}
+
+.btn-outline-primary {
+    color: #af89dd;
+    border-color: #af89dd;
+}
+
+.btn-outline-primary:hover {
+    color: black;
+    background-color: #af89dd !important;
+    border-color: #af89dd;
+}
+
+.btn-outline-info {
+    color: #ee892b;
+    border-color: #ee892b;
+}
+
+.btn-outline-info:hover {
+    color: black;
+    background-color: #ee892b;
+    border-color: #ee892b;
+}
+
+h1 {
+    text-align: left;
+    padding-top: 20%;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.subaru h1 {
+    color: #ee892b;
+}
+
+.subaru a {
+    color: #ee892b;
+}
+
+.emilia h1 {
+    color: #843ee0;
+}
+
+.emilia a {
+    color: #843ee0;
+}
+
+.beako h1 {
+    color: #f00f0f;
+    ;
+}
+
+.beako a {
+    color: #f00f0f;
+}
+
+.puck h1 {
+    color: #3283fc;
+}
+
+.puck a {
+    color: #3283fc;
+}
